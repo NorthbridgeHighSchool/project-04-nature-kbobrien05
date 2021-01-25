@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Concert+One&display=swap');
+html.plants {
+  background-image: url('meadow.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+nav ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  justify-content: flex-end;
+}
+nav li {
+  margin-left: 20px;
+}
+nav a:link {
+  padding: 10px;
+  background-color: rgb(240, 195, 195);
+  color: rgb(78, 49, 160);
+  text-decoration: none;
+}
+nav a:visited {
+  color: rgb(10, 9, 87);
+}
+nav a:hover {
+  color: rgb(189, 107, 107);
+}
+nav a.current {
+  color: rgb(148, 148, 148);
+}
+nav a:active {
+  color: rgb(230, 46, 46);
+}
+.sublist {
+  flex-direction: column;
+  position: absolute;
+  margin-top: 10px;
+  display: none;
+}
+.itemWithDropdown:hover .sublist {
+  display: flex;
+}
+.sublist a:link {
+  display: block;
+  border: none;
+  padding: 10px; 
+  background-color: rgb(189, 107, 107);
+  color: rgb(240, 195, 195);
+}
+.sublist a:visited {
+  color: rgb(219, 166, 215);
+}
+.sublist a:hover {
+  color: rgb(214, 253, 253);
+}
+.sublist a.current {
+  color: rgb(194, 194, 194);
+}
+.sublist a:active {
+  color: rgb(80, 55, 1);
+}
+.sublist li {
+  margin-left: 0;
+}
+.textblock {
+  background-color: rgba(31, 71, 5, 0.644);
+  margin-right: 57%;
+  padding: 10px;
+}
+p {
+  color: rgb(253, 239, 239)
+}
+h1 {
+  color: rgb(240, 195, 195);
+  font-family: "Concert One", fantasy;
+}
+h2 {
+  color: rgb(214, 253, 253);
+  font-family: "Bodoni Moda", serif;
+}
+img {
+  border-radius: 8px;
+}
